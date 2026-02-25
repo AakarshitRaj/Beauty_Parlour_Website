@@ -1,0 +1,12 @@
+{
+  "name": "glow-glam",
+  "version": "1.0.0",
+  "description": "Glow & Glam Beauty Parlour - Full Stack MERN App",
+  "scripts": {
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "seed": "cd backend && npm run seed",
+    "create-admin": "cd backend && npm run create-admin"
+  }
+}
