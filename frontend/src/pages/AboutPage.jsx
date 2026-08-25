@@ -10,9 +10,9 @@ const AboutPage = () => (
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div>
             <p className="text-gold text-sm font-medium tracking-[0.2em] uppercase mb-3">Our Story</p>
-            <h1 className="text-5xl font-serif font-bold text-charcoal mb-6">About Glow & Glam</h1>
+            <h1 className="text-5xl font-serif font-bold text-charcoal mb-6">About Arpan's Beauty Zone & Academy</h1>
             <p className="text-gray-600 leading-relaxed text-lg mb-6">
-              Founded in 2018 in the heart of Mumbai, Glow & Glam was born from a simple belief: every woman deserves to feel extraordinary. What started as a small studio with 3 professionals has grown into the city's most trusted luxury beauty destination.
+              Founded in 2019 in the heart of Sasaram, Arpan's Beauty Zone & Academy was born from a simple belief: every woman deserves to feel extraordinary. What started as a small studio with 3 professionals has grown into the city's most trusted luxury beauty destination.
             </p>
             <p className="text-gray-600 leading-relaxed mb-8">
               Our team of certified beauty professionals brings together years of expertise across skincare, hair artistry, makeup, and wellness. We combine timeless techniques with cutting-edge treatments to deliver results that go beyond the surface.
@@ -21,11 +21,11 @@ const AboutPage = () => (
           </div>
           <div className="grid grid-cols-2 gap-6">
             <div className="bg-white rounded-2xl p-8 shadow-md text-center">
-              <div className="text-4xl font-serif font-bold text-gold mb-2">500+</div>
+              <div className="text-4xl font-serif font-bold text-gold mb-2">2000+</div>
               <div className="text-sm text-gray-500">Happy Clients</div>
             </div>
             <div className="bg-white rounded-2xl p-8 shadow-md text-center">
-              <div className="text-4xl font-serif font-bold text-gold mb-2">6+</div>
+              <div className="text-4xl font-serif font-bold text-gold mb-2">15+</div>
               <div className="text-sm text-gray-500">Years Experience</div>
             </div>
             <div className="bg-white rounded-2xl p-8 shadow-md text-center">

@@ -54,7 +54,7 @@ const AdminLayout = () => {
         <div className="p-5 flex items-center justify-between border-b border-white/10">
           {sidebarOpen && (
             <span className="text-white font-serif font-semibold text-lg">
-              Glow <span className="text-gold">&</span> Glam
+              Arpan's Beauty Zone <span className="text-gold">&</span> Academy
             </span>
           )}
           <button onClick={() => setSidebarOpen(p => !p)} className="text-gray-400 hover:text-white ml-auto">

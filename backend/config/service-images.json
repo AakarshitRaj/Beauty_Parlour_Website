@@ -1,0 +1,1571 @@
+[
+  {
+    "name": "Eyebrows Threading",
+    "description": "Precise eyebrow shaping with thread.",
+    "category": "skin",
+    "subcategory": "Threadwork",
+    "price": 30,
+    "duration": 10,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646177/arpan-beauty-zone/services/eyebrows-threading.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/eyebrows-threading"
+  },
+  {
+    "name": "Forehead Threading",
+    "description": "Forehead hair removal with thread.",
+    "category": "skin",
+    "subcategory": "Threadwork",
+    "price": 20,
+    "duration": 5,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646178/arpan-beauty-zone/services/forehead-threading.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/forehead-threading"
+  },
+  {
+    "name": "Upper Lips Threading",
+    "description": "Upper lip hair removal with thread.",
+    "category": "skin",
+    "subcategory": "Threadwork",
+    "price": 20,
+    "duration": 5,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646180/arpan-beauty-zone/services/upper-lips-threading.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/upper-lips-threading"
+  },
+  {
+    "name": "Chin Threading",
+    "description": "Chin hair removal with thread.",
+    "category": "skin",
+    "subcategory": "Threadwork",
+    "price": 30,
+    "duration": 5,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646181/arpan-beauty-zone/services/chin-threading.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/chin-threading"
+  },
+  {
+    "name": "Side Lock Threading",
+    "description": "Side-lock area hair removal with thread.",
+    "category": "skin",
+    "subcategory": "Threadwork",
+    "price": 50,
+    "duration": 10,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646183/arpan-beauty-zone/services/side-lock-threading.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/side-lock-threading"
+  },
+  {
+    "name": "Full Face Threading",
+    "description": "Complete face threading for a clean, polished look.",
+    "category": "skin",
+    "subcategory": "Threadwork",
+    "price": 180,
+    "duration": 20,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646184/arpan-beauty-zone/services/full-face-threading.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/full-face-threading"
+  },
+  {
+    "name": "Ozone D-Tan",
+    "description": "De-tanning treatment using Ozone products.",
+    "category": "skin",
+    "subcategory": "D-Tan",
+    "price": 250,
+    "duration": 30,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646185/arpan-beauty-zone/services/ozone-d-tan.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/ozone-d-tan"
+  },
+  {
+    "name": "Raga D-Tan",
+    "description": "De-tanning treatment using Raga products.",
+    "category": "skin",
+    "subcategory": "D-Tan",
+    "price": 350,
+    "duration": 30,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646187/arpan-beauty-zone/services/raga-d-tan.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/raga-d-tan"
+  },
+  {
+    "name": "O3+ D-Tan",
+    "description": "De-tanning treatment using O3+ products.",
+    "category": "skin",
+    "subcategory": "D-Tan",
+    "price": 400,
+    "duration": 30,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646189/arpan-beauty-zone/services/o3-d-tan.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/o3-d-tan"
+  },
+  {
+    "name": "Lotus D-Tan",
+    "description": "De-tanning treatment using Lotus products.",
+    "category": "skin",
+    "subcategory": "D-Tan",
+    "price": 450,
+    "duration": 30,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646190/arpan-beauty-zone/services/lotus-d-tan.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/lotus-d-tan"
+  },
+  {
+    "name": "Natures D-Tan",
+    "description": "De-tanning treatment using Natures products.",
+    "category": "skin",
+    "subcategory": "D-Tan",
+    "price": 200,
+    "duration": 30,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646191/arpan-beauty-zone/services/natures-d-tan.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/natures-d-tan"
+  },
+  {
+    "name": "Herbal D-Tan",
+    "description": "De-tanning treatment using herbal products.",
+    "category": "skin",
+    "subcategory": "D-Tan",
+    "price": 250,
+    "duration": 30,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646193/arpan-beauty-zone/services/herbal-d-tan.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/herbal-d-tan"
+  },
+  {
+    "name": "Aries D-Tan",
+    "description": "De-tanning treatment using Aries products.",
+    "category": "skin",
+    "subcategory": "D-Tan",
+    "price": 250,
+    "duration": 30,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646194/arpan-beauty-zone/services/aries-d-tan.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/aries-d-tan"
+  },
+  {
+    "name": "Oxy Glow D-Tan",
+    "description": "De-tanning treatment using Oxy Glow products.",
+    "category": "skin",
+    "subcategory": "D-Tan",
+    "price": 250,
+    "duration": 30,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646196/arpan-beauty-zone/services/oxy-glow-d-tan.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/oxy-glow-d-tan"
+  },
+  {
+    "name": "Shahnaz D-Tan",
+    "description": "De-tanning treatment using Shahnaz Husain products.",
+    "category": "skin",
+    "subcategory": "D-Tan",
+    "price": 400,
+    "duration": 30,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646197/arpan-beauty-zone/services/shahnaz-d-tan.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/shahnaz-d-tan"
+  },
+  {
+    "name": "Ammonia Free Bleach",
+    "description": "Gentle, ammonia-free body bleach.",
+    "category": "skin",
+    "subcategory": "Body Shiners",
+    "price": 500,
+    "duration": 30,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646199/arpan-beauty-zone/services/ammonia-free-bleach.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/ammonia-free-bleach"
+  },
+  {
+    "name": "Back Bleach & Scrubbing",
+    "description": "Bleach and scrub treatment for the back.",
+    "category": "skin",
+    "subcategory": "Body Shiners",
+    "price": 1000,
+    "duration": 45,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646201/arpan-beauty-zone/services/back-bleach-scrubbing.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/back-bleach-scrubbing"
+  },
+  {
+    "name": "Body Polishing",
+    "description": "Full body polishing for smooth, glowing skin.",
+    "category": "skin",
+    "subcategory": "Body Shiners",
+    "price": 2000,
+    "priceLabel": "to ₹5000 (based on area/package)",
+    "duration": 90,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646202/arpan-beauty-zone/services/body-polishing.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/body-polishing"
+  },
+  {
+    "name": "Arms Polishing",
+    "description": "Polishing treatment for the arms.",
+    "category": "skin",
+    "subcategory": "Body Shiners",
+    "price": 600,
+    "duration": 30,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646203/arpan-beauty-zone/services/arms-polishing.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/arms-polishing"
+  },
+  {
+    "name": "Arms Scrubbing",
+    "description": "Scrubbing treatment for the arms.",
+    "category": "skin",
+    "subcategory": "Body Shiners",
+    "price": 400,
+    "duration": 20,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646205/arpan-beauty-zone/services/arms-scrubbing.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/arms-scrubbing"
+  },
+  {
+    "name": "Fruit Cleanup",
+    "description": "Refreshing fruit-based skin cleanup.",
+    "category": "skin",
+    "subcategory": "Cleanup",
+    "price": 400,
+    "duration": 30,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646206/arpan-beauty-zone/services/fruit-cleanup.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/fruit-cleanup"
+  },
+  {
+    "name": "Lotus Diamond Radiant Cleanup",
+    "description": "Radiance-boosting cleanup using Lotus Diamond range.",
+    "category": "skin",
+    "subcategory": "Cleanup",
+    "price": 700,
+    "duration": 40,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646208/arpan-beauty-zone/services/lotus-diamond-radiant-cleanup.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/lotus-diamond-radiant-cleanup"
+  },
+  {
+    "name": "Lotus Gold Radiant Cleanup",
+    "description": "Radiance-boosting cleanup using Lotus Gold range.",
+    "category": "skin",
+    "subcategory": "Cleanup",
+    "price": 700,
+    "duration": 40,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646209/arpan-beauty-zone/services/lotus-gold-radiant-cleanup.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/lotus-gold-radiant-cleanup"
+  },
+  {
+    "name": "VLCC Diamond Cleanup",
+    "description": "Skin cleanup using VLCC Diamond range.",
+    "category": "skin",
+    "subcategory": "Cleanup",
+    "price": 800,
+    "duration": 40,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646211/arpan-beauty-zone/services/vlcc-diamond-cleanup.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/vlcc-diamond-cleanup"
+  },
+  {
+    "name": "VLCC Gold Cleanup",
+    "description": "Skin cleanup using VLCC Gold range.",
+    "category": "skin",
+    "subcategory": "Cleanup",
+    "price": 800,
+    "duration": 40,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646212/arpan-beauty-zone/services/vlcc-gold-cleanup.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/vlcc-gold-cleanup"
+  },
+  {
+    "name": "Natures Gold Cleanup",
+    "description": "Skin cleanup using Natures Gold range.",
+    "category": "skin",
+    "subcategory": "Cleanup",
+    "price": 600,
+    "duration": 40,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646214/arpan-beauty-zone/services/natures-gold-cleanup.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/natures-gold-cleanup"
+  },
+  {
+    "name": "Shahnaz Gold Cleanup",
+    "description": "Skin cleanup using Shahnaz Gold range.",
+    "category": "skin",
+    "subcategory": "Cleanup",
+    "price": 1000,
+    "duration": 40,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646215/arpan-beauty-zone/services/shahnaz-gold-cleanup.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/shahnaz-gold-cleanup"
+  },
+  {
+    "name": "Shahnaz Diamond Cleanup",
+    "description": "Skin cleanup using Shahnaz Diamond range.",
+    "category": "skin",
+    "subcategory": "Cleanup",
+    "price": 1100,
+    "duration": 40,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646217/arpan-beauty-zone/services/shahnaz-diamond-cleanup.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/shahnaz-diamond-cleanup"
+  },
+  {
+    "name": "O3+ Cleanup",
+    "description": "Skin cleanup using O3+ range.",
+    "category": "skin",
+    "subcategory": "Cleanup",
+    "price": 1000,
+    "duration": 40,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646218/arpan-beauty-zone/services/o3-cleanup.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/o3-cleanup"
+  },
+  {
+    "name": "Lotus Professional Cleanup",
+    "description": "Professional-grade cleanup using Lotus range.",
+    "category": "skin",
+    "subcategory": "Cleanup",
+    "price": 500,
+    "duration": 35,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646219/arpan-beauty-zone/services/lotus-professional-cleanup.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/lotus-professional-cleanup"
+  },
+  {
+    "name": "Whitening Cleanup",
+    "description": "Brightening and whitening skin cleanup.",
+    "category": "skin",
+    "subcategory": "Cleanup",
+    "price": 500,
+    "duration": 35,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646221/arpan-beauty-zone/services/whitening-cleanup.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/whitening-cleanup"
+  },
+  {
+    "name": "Detox Cleanup",
+    "description": "Detoxifying skin cleanup treatment.",
+    "category": "skin",
+    "subcategory": "Cleanup",
+    "price": 800,
+    "duration": 40,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646222/arpan-beauty-zone/services/detox-cleanup.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/detox-cleanup"
+  },
+  {
+    "name": "Ultra Glow Cleanup",
+    "description": "Cleanup treatment for an instant glow.",
+    "category": "skin",
+    "subcategory": "Cleanup",
+    "price": 1000,
+    "duration": 40,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646223/arpan-beauty-zone/services/ultra-glow-cleanup.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/ultra-glow-cleanup"
+  },
+  {
+    "name": "Sensitive Care Cleanup",
+    "description": "Gentle cleanup formulated for sensitive skin.",
+    "category": "skin",
+    "subcategory": "Cleanup",
+    "price": 1200,
+    "duration": 40,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646224/arpan-beauty-zone/services/sensitive-care-cleanup.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/sensitive-care-cleanup"
+  },
+  {
+    "name": "Add-On Mask",
+    "description": "Add-on facial mask for any cleanup or facial.",
+    "category": "skin",
+    "subcategory": "Cleanup",
+    "price": 1500,
+    "duration": 15,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646226/arpan-beauty-zone/services/add-on-mask.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/add-on-mask"
+  },
+  {
+    "name": "Fruit Facial with D-Tan",
+    "description": "Fruit-based facial combined with de-tanning.",
+    "category": "skin",
+    "subcategory": "Facials",
+    "price": 600,
+    "duration": 45,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646227/arpan-beauty-zone/services/fruit-facial-with-d-tan.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/fruit-facial-with-d-tan"
+  },
+  {
+    "name": "Lotus Anti Aging Facial",
+    "description": "Anti-ageing facial using the Lotus range.",
+    "category": "skin",
+    "subcategory": "Facials",
+    "price": 2500,
+    "duration": 60,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646228/arpan-beauty-zone/services/lotus-anti-aging-facial.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/lotus-anti-aging-facial"
+  },
+  {
+    "name": "Lotus 4 Layer Facial",
+    "description": "Four-layer facial treatment from Lotus.",
+    "category": "skin",
+    "subcategory": "Facials",
+    "price": 2500,
+    "duration": 60,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646230/arpan-beauty-zone/services/lotus-4-layer-facial.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/lotus-4-layer-facial"
+  },
+  {
+    "name": "Lotus Gold Sheen Facial",
+    "description": "Gold-infused radiance facial from Lotus.",
+    "category": "skin",
+    "subcategory": "Facials",
+    "price": 2000,
+    "duration": 60,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646232/arpan-beauty-zone/services/lotus-gold-sheen-facial.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/lotus-gold-sheen-facial"
+  },
+  {
+    "name": "Ozone Facial",
+    "description": "Deep cleansing facial using Ozone range.",
+    "category": "skin",
+    "subcategory": "Facials",
+    "price": 3000,
+    "duration": 60,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646233/arpan-beauty-zone/services/ozone-facial.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/ozone-facial"
+  },
+  {
+    "name": "Ozone Anti-Aging Facial",
+    "description": "Anti-ageing facial using Ozone range.",
+    "category": "skin",
+    "subcategory": "Facials",
+    "price": 2500,
+    "duration": 60,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646235/arpan-beauty-zone/services/ozone-anti-aging-facial.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/ozone-anti-aging-facial"
+  },
+  {
+    "name": "VLCC Gold Facial",
+    "description": "Gold facial using the VLCC range.",
+    "category": "skin",
+    "subcategory": "Facials",
+    "price": 1500,
+    "duration": 60,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646236/arpan-beauty-zone/services/vlcc-gold-facial.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/vlcc-gold-facial"
+  },
+  {
+    "name": "O3+ Seaweed Facial",
+    "description": "Nourishing seaweed facial from O3+.",
+    "category": "skin",
+    "subcategory": "Facials",
+    "price": 2500,
+    "duration": 60,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646237/arpan-beauty-zone/services/o3-seaweed-facial.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/o3-seaweed-facial"
+  },
+  {
+    "name": "Lotus Diamond Facial",
+    "description": "Brightening diamond facial from Lotus.",
+    "category": "skin",
+    "subcategory": "Facials",
+    "price": 1200,
+    "duration": 60,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646239/arpan-beauty-zone/services/lotus-diamond-facial.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/lotus-diamond-facial"
+  },
+  {
+    "name": "Lotus Facial",
+    "description": "Classic facial using the Lotus range.",
+    "category": "skin",
+    "subcategory": "Facials",
+    "price": 800,
+    "duration": 45,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646240/arpan-beauty-zone/services/lotus-facial.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/lotus-facial"
+  },
+  {
+    "name": "O3+ Power Brightening Treatment",
+    "description": "Intensive brightening treatment from O3+.",
+    "category": "skin",
+    "subcategory": "Facials",
+    "price": 4000,
+    "duration": 75,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646241/arpan-beauty-zone/services/o3-power-brightening-treatment.png",
+    "imagePublicId": "arpan-beauty-zone/services/o3-power-brightening-treatment"
+  },
+  {
+    "name": "Natures Gold Facial",
+    "description": "Gold facial using the Natures range.",
+    "category": "skin",
+    "subcategory": "Facials",
+    "price": 1200,
+    "duration": 60,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646245/arpan-beauty-zone/services/natures-gold-facial.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/natures-gold-facial"
+  },
+  {
+    "name": "Lakme Perfect Radiance Facial",
+    "description": "Radiance-boosting facial from Lakme.",
+    "category": "skin",
+    "subcategory": "Facials",
+    "price": 2000,
+    "duration": 60,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646246/arpan-beauty-zone/services/lakme-perfect-radiance-facial.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/lakme-perfect-radiance-facial"
+  },
+  {
+    "name": "Shahnaz Whitening Facial",
+    "description": "Whitening facial using Shahnaz Husain range.",
+    "category": "skin",
+    "subcategory": "Facials",
+    "price": 1500,
+    "duration": 60,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646248/arpan-beauty-zone/services/shahnaz-whitening-facial.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/shahnaz-whitening-facial"
+  },
+  {
+    "name": "Shahnaz Gold Facial",
+    "description": "Gold facial using Shahnaz Husain range.",
+    "category": "skin",
+    "subcategory": "Facials",
+    "price": 2000,
+    "duration": 60,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646249/arpan-beauty-zone/services/shahnaz-gold-facial.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/shahnaz-gold-facial"
+  },
+  {
+    "name": "Shahnaz Diamond Facial",
+    "description": "Diamond facial using Shahnaz Husain range.",
+    "category": "skin",
+    "subcategory": "Facials",
+    "price": 2200,
+    "duration": 60,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646250/arpan-beauty-zone/services/shahnaz-diamond-facial.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/shahnaz-diamond-facial"
+  },
+  {
+    "name": "Lotus Radiance Gold Facial",
+    "description": "Gold radiance facial from Lotus.",
+    "category": "skin",
+    "subcategory": "Facials",
+    "price": 1250,
+    "duration": 60,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646251/arpan-beauty-zone/services/lotus-radiance-gold-facial.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/lotus-radiance-gold-facial"
+  },
+  {
+    "name": "Whitening Facial",
+    "description": "Skin-brightening whitening facial.",
+    "category": "skin",
+    "subcategory": "Facials",
+    "price": 1000,
+    "duration": 45,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646253/arpan-beauty-zone/services/whitening-facial.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/whitening-facial"
+  },
+  {
+    "name": "Anti-Aging Facial",
+    "description": "General anti-ageing facial treatment.",
+    "category": "skin",
+    "subcategory": "Facials",
+    "price": 2000,
+    "duration": 60,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646254/arpan-beauty-zone/services/anti-aging-facial.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/anti-aging-facial"
+  },
+  {
+    "name": "O3+ Facial",
+    "description": "Signature facial using the O3+ range.",
+    "category": "skin",
+    "subcategory": "Facials",
+    "price": 3500,
+    "duration": 60,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646255/arpan-beauty-zone/services/o3-facial.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/o3-facial"
+  },
+  {
+    "name": "Bridal Glow Facial",
+    "description": "Facial designed to give brides a radiant glow.",
+    "category": "skin",
+    "subcategory": "Facials",
+    "price": 2500,
+    "duration": 75,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646257/arpan-beauty-zone/services/bridal-glow-facial.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/bridal-glow-facial"
+  },
+  {
+    "name": "Korean Glass Facial",
+    "description": "Multi-step facial for dewy, \"glass skin\" finish.",
+    "category": "skin",
+    "subcategory": "Facials",
+    "price": 5000,
+    "duration": 90,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646258/arpan-beauty-zone/services/korean-glass-facial.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/korean-glass-facial"
+  },
+  {
+    "name": "HydraFacial",
+    "description": "Deep hydrating and exfoliating facial treatment.",
+    "category": "skin",
+    "subcategory": "Facials",
+    "price": 3500,
+    "duration": 60,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646260/arpan-beauty-zone/services/hydrafacial.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/hydrafacial"
+  },
+  {
+    "name": "Full Hand Wax",
+    "description": "Full hand waxing.",
+    "category": "waxing",
+    "subcategory": "Waxing",
+    "price": 200,
+    "duration": 20,
+    "variants": [
+      {
+        "label": "Regular",
+        "price": 200
+      },
+      {
+        "label": "Chocolate",
+        "price": 300
+      },
+      {
+        "label": "Rica",
+        "price": 500
+      }
+    ],
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646261/arpan-beauty-zone/services/full-hand-wax.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/full-hand-wax"
+  },
+  {
+    "name": "Under Arm's Wax",
+    "description": "Underarm waxing.",
+    "category": "waxing",
+    "subcategory": "Waxing",
+    "price": 100,
+    "duration": 10,
+    "variants": [
+      {
+        "label": "Regular",
+        "price": 100
+      },
+      {
+        "label": "Chocolate",
+        "price": 200
+      },
+      {
+        "label": "Rica",
+        "price": 300
+      }
+    ],
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646263/arpan-beauty-zone/services/under-arm-s-wax.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/under-arm-s-wax"
+  },
+  {
+    "name": "Full Leg Wax",
+    "description": "Full leg waxing.",
+    "category": "waxing",
+    "subcategory": "Waxing",
+    "price": 400,
+    "duration": 30,
+    "variants": [
+      {
+        "label": "Regular",
+        "price": 400
+      },
+      {
+        "label": "Chocolate",
+        "price": 600
+      },
+      {
+        "label": "Rica",
+        "price": 800
+      }
+    ],
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646264/arpan-beauty-zone/services/full-leg-wax.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/full-leg-wax"
+  },
+  {
+    "name": "Half Leg Wax",
+    "description": "Half leg waxing.",
+    "category": "waxing",
+    "subcategory": "Waxing",
+    "price": 200,
+    "duration": 20,
+    "variants": [
+      {
+        "label": "Regular",
+        "price": 200
+      },
+      {
+        "label": "Chocolate",
+        "price": 300
+      },
+      {
+        "label": "Rica",
+        "price": 500
+      }
+    ],
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646265/arpan-beauty-zone/services/half-leg-wax.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/half-leg-wax"
+  },
+  {
+    "name": "Full Body Wax",
+    "description": "Full body waxing.",
+    "category": "waxing",
+    "subcategory": "Waxing",
+    "price": 1500,
+    "duration": 90,
+    "variants": [
+      {
+        "label": "Regular",
+        "price": 1500
+      },
+      {
+        "label": "Chocolate",
+        "price": 200
+      },
+      {
+        "label": "Rica",
+        "price": 3500
+      }
+    ],
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646266/arpan-beauty-zone/services/full-body-wax.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/full-body-wax"
+  },
+  {
+    "name": "Bikini Wax",
+    "description": "Bikini area waxing.",
+    "category": "waxing",
+    "subcategory": "Waxing",
+    "price": 1000,
+    "duration": 20,
+    "variants": [
+      {
+        "label": "Regular",
+        "price": 1000
+      },
+      {
+        "label": "Chocolate",
+        "price": 2000
+      },
+      {
+        "label": "Rica",
+        "price": 2500
+      }
+    ],
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646268/arpan-beauty-zone/services/bikini-wax.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/bikini-wax"
+  },
+  {
+    "name": "Full Body + Bikini Wax",
+    "description": "Full body waxing including bikini area.",
+    "category": "waxing",
+    "subcategory": "Waxing",
+    "price": 2000,
+    "duration": 110,
+    "variants": [
+      {
+        "label": "Regular",
+        "price": 2000
+      },
+      {
+        "label": "Chocolate",
+        "price": 3000
+      },
+      {
+        "label": "Rica",
+        "price": 5000
+      }
+    ],
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646269/arpan-beauty-zone/services/full-body-bikini-wax.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/full-body-bikini-wax"
+  },
+  {
+    "name": "Face Wax",
+    "description": "Full face waxing.",
+    "category": "waxing",
+    "subcategory": "Waxing",
+    "price": 200,
+    "duration": 15,
+    "variants": [
+      {
+        "label": "Regular",
+        "price": 200
+      },
+      {
+        "label": "Chocolate",
+        "price": 400
+      },
+      {
+        "label": "Rica",
+        "price": 600
+      }
+    ],
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646270/arpan-beauty-zone/services/face-wax.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/face-wax"
+  },
+  {
+    "name": "Lip/Chin Wax",
+    "description": "Lip and chin waxing.",
+    "category": "waxing",
+    "subcategory": "Waxing",
+    "price": 50,
+    "duration": 10,
+    "variants": [
+      {
+        "label": "Regular",
+        "price": 50
+      },
+      {
+        "label": "Chocolate",
+        "price": 100
+      },
+      {
+        "label": "Rica",
+        "price": 200
+      }
+    ],
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646272/arpan-beauty-zone/services/lip-chin-wax.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/lip-chin-wax"
+  },
+  {
+    "name": "Manicure (Regular)",
+    "description": "Classic regular manicure.",
+    "category": "nails",
+    "subcategory": "Hand & Feet",
+    "price": 490,
+    "duration": 30,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646274/arpan-beauty-zone/services/manicure-regular.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/manicure-regular"
+  },
+  {
+    "name": "Pedicure (Regular)",
+    "description": "Classic regular pedicure.",
+    "category": "nails",
+    "subcategory": "Hand & Feet",
+    "price": 590,
+    "duration": 40,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646275/arpan-beauty-zone/services/pedicure-regular.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/pedicure-regular"
+  },
+  {
+    "name": "Crystal Manicure",
+    "description": "Manicure with crystal-infused treatment.",
+    "category": "nails",
+    "subcategory": "Hand & Feet",
+    "price": 690,
+    "duration": 40,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787657273/arpan-beauty-zone/services/crystal-manicure.png",
+    "imagePublicId": "arpan-beauty-zone/services/crystal-manicure"
+  },
+  {
+    "name": "Crystal Pedicure",
+    "description": "Pedicure with crystal-infused treatment.",
+    "category": "nails",
+    "subcategory": "Hand & Feet",
+    "price": 790,
+    "duration": 45,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646278/arpan-beauty-zone/services/crystal-pedicure.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/crystal-pedicure"
+  },
+  {
+    "name": "Exclusive Manicure",
+    "description": "Premium exclusive manicure treatment.",
+    "category": "nails",
+    "subcategory": "Hand & Feet",
+    "price": 990,
+    "duration": 45,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646279/arpan-beauty-zone/services/exclusive-manicure.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/exclusive-manicure"
+  },
+  {
+    "name": "Exclusive Pedicure",
+    "description": "Premium exclusive pedicure treatment.",
+    "category": "nails",
+    "subcategory": "Hand & Feet",
+    "price": 1490,
+    "duration": 60,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646280/arpan-beauty-zone/services/exclusive-pedicure.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/exclusive-pedicure"
+  },
+  {
+    "name": "Luxurious Manicure",
+    "description": "Top-tier luxurious manicure treatment.",
+    "category": "nails",
+    "subcategory": "Hand & Feet",
+    "price": 1490,
+    "duration": 60,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646282/arpan-beauty-zone/services/luxurious-manicure.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/luxurious-manicure"
+  },
+  {
+    "name": "Luxurious Pedicure",
+    "description": "Top-tier luxurious pedicure treatment.",
+    "category": "nails",
+    "subcategory": "Hand & Feet",
+    "price": 1990,
+    "duration": 75,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646283/arpan-beauty-zone/services/luxurious-pedicure.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/luxurious-pedicure"
+  },
+  {
+    "name": "Hand Polishing",
+    "description": "Polishing treatment for the hands.",
+    "category": "nails",
+    "subcategory": "Hand & Feet",
+    "price": 390,
+    "duration": 20,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646285/arpan-beauty-zone/services/hand-polishing.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/hand-polishing"
+  },
+  {
+    "name": "Leg Polishing",
+    "description": "Polishing treatment for the legs.",
+    "category": "nails",
+    "subcategory": "Hand & Feet",
+    "price": 590,
+    "duration": 30,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646286/arpan-beauty-zone/services/leg-polishing.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/leg-polishing"
+  },
+  {
+    "name": "Permanent Gel Polish (Hand & Feet)",
+    "description": "Long-lasting gel polish for hands and feet.",
+    "category": "nails",
+    "subcategory": "Nail Extension & Polish",
+    "price": 800,
+    "duration": 45,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787657288/arpan-beauty-zone/services/permanent-gel-polish-hand-feet.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/permanent-gel-polish-hand-feet"
+  },
+  {
+    "name": "French Permanent Gel Polish",
+    "description": "French-style long-lasting gel polish.",
+    "category": "nails",
+    "subcategory": "Nail Extension & Polish",
+    "price": 900,
+    "duration": 45,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646289/arpan-beauty-zone/services/french-permanent-gel-polish.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/french-permanent-gel-polish"
+  },
+  {
+    "name": "Temporary Nail Extension",
+    "description": "Temporary nail extensions.",
+    "category": "nails",
+    "subcategory": "Nail Extension & Polish",
+    "price": 1000,
+    "duration": 60,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646290/arpan-beauty-zone/services/temporary-nail-extension.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/temporary-nail-extension"
+  },
+  {
+    "name": "Permanent Nail Extension (Gel/Acrylic)",
+    "description": "Long-lasting gel or acrylic nail extensions.",
+    "category": "nails",
+    "subcategory": "Nail Extension & Polish",
+    "price": 2500,
+    "duration": 90,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646291/arpan-beauty-zone/services/permanent-nail-extension-gel-acrylic.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/permanent-nail-extension-gel-acrylic"
+  },
+  {
+    "name": "Nail Extension Removal",
+    "description": "Safe removal of existing nail extensions.",
+    "category": "nails",
+    "subcategory": "Nail Extension & Polish",
+    "price": 500,
+    "duration": 30,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646293/arpan-beauty-zone/services/nail-extension-removal.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/nail-extension-removal"
+  },
+  {
+    "name": "Gel Polish Removal",
+    "description": "Removal of existing gel polish.",
+    "category": "nails",
+    "subcategory": "Nail Extension & Polish",
+    "price": 200,
+    "duration": 15,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646294/arpan-beauty-zone/services/gel-polish-removal.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/gel-polish-removal"
+  },
+  {
+    "name": "Hair Wash",
+    "description": "Basic hair wash service.",
+    "category": "hair",
+    "subcategory": "Hair Care",
+    "price": 200,
+    "duration": 20,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646295/arpan-beauty-zone/services/hair-wash.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/hair-wash"
+  },
+  {
+    "name": "Hair Wash with Setting",
+    "description": "Hair wash followed by styling/setting.",
+    "category": "hair",
+    "subcategory": "Hair Care",
+    "price": 300,
+    "duration": 30,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646296/arpan-beauty-zone/services/hair-wash-with-setting.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/hair-wash-with-setting"
+  },
+  {
+    "name": "Hair Wash with Trimming",
+    "description": "Hair wash followed by trimming.",
+    "category": "hair",
+    "subcategory": "Hair Care",
+    "price": 300,
+    "duration": 30,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646298/arpan-beauty-zone/services/hair-wash-with-trimming.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/hair-wash-with-trimming"
+  },
+  {
+    "name": "Hair Cut (Normal)",
+    "description": "Standard haircut.",
+    "category": "hair",
+    "subcategory": "Hair Cutting",
+    "price": 100,
+    "priceLabel": "to ₹200",
+    "duration": 30,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646300/arpan-beauty-zone/services/hair-cut-normal.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/hair-cut-normal"
+  },
+  {
+    "name": "Trimming",
+    "description": "Hair trimming service.",
+    "category": "hair",
+    "subcategory": "Hair Cutting",
+    "price": 1000,
+    "duration": 30,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646301/arpan-beauty-zone/services/trimming.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/trimming"
+  },
+  {
+    "name": "Advance Hair Cut",
+    "description": "Advanced/styled haircut.",
+    "category": "hair",
+    "subcategory": "Hair Cutting",
+    "price": 400,
+    "duration": 45,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646303/arpan-beauty-zone/services/advance-hair-cut.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/advance-hair-cut"
+  },
+  {
+    "name": "Baby Hair Cut",
+    "description": "Haircut for babies.",
+    "category": "hair",
+    "subcategory": "Hair Cutting",
+    "price": 150,
+    "duration": 15,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646305/arpan-beauty-zone/services/baby-hair-cut.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/baby-hair-cut"
+  },
+  {
+    "name": "U Hair Cut",
+    "description": "U-shape layered haircut.",
+    "category": "hair",
+    "subcategory": "Hair Cutting",
+    "price": 150,
+    "duration": 30,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646306/arpan-beauty-zone/services/u-hair-cut.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/u-hair-cut"
+  },
+  {
+    "name": "Deep U Cut",
+    "description": "Deep U-shape layered haircut.",
+    "category": "hair",
+    "subcategory": "Hair Cutting",
+    "price": 200,
+    "duration": 35,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646307/arpan-beauty-zone/services/deep-u-cut.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/deep-u-cut"
+  },
+  {
+    "name": "V Cut",
+    "description": "V-shape layered haircut.",
+    "category": "hair",
+    "subcategory": "Hair Cutting",
+    "price": 150,
+    "duration": 30,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646309/arpan-beauty-zone/services/v-cut.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/v-cut"
+  },
+  {
+    "name": "Deep V Cut",
+    "description": "Deep V-shape layered haircut.",
+    "category": "hair",
+    "subcategory": "Hair Cutting",
+    "price": 200,
+    "duration": 35,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646311/arpan-beauty-zone/services/deep-v-cut.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/deep-v-cut"
+  },
+  {
+    "name": "Front Layers",
+    "description": "Front-layer haircut styling.",
+    "category": "hair",
+    "subcategory": "Hair Cutting",
+    "price": 100,
+    "duration": 20,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646312/arpan-beauty-zone/services/front-layers.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/front-layers"
+  },
+  {
+    "name": "Baby Cut",
+    "description": "Simple cut styled for babies/kids.",
+    "category": "hair",
+    "subcategory": "Hair Cutting",
+    "price": 200,
+    "duration": 20,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646314/arpan-beauty-zone/services/baby-cut.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/baby-cut"
+  },
+  {
+    "name": "Matrix Hair Spa",
+    "description": "Hair spa treatment using Matrix products.",
+    "category": "hair",
+    "subcategory": "Hair Spa",
+    "price": 600,
+    "duration": 45,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646316/arpan-beauty-zone/services/matrix-hair-spa.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/matrix-hair-spa"
+  },
+  {
+    "name": "Loreal Hair Spa",
+    "description": "Hair spa treatment using L'Oreal products.",
+    "category": "hair",
+    "subcategory": "Hair Spa",
+    "price": 800,
+    "duration": 45,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646317/arpan-beauty-zone/services/loreal-hair-spa.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/loreal-hair-spa"
+  },
+  {
+    "name": "Keratin Hair Spa",
+    "description": "Keratin-infused hair spa treatment.",
+    "category": "hair",
+    "subcategory": "Hair Spa",
+    "price": 1200,
+    "duration": 60,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646318/arpan-beauty-zone/services/keratin-hair-spa.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/keratin-hair-spa"
+  },
+  {
+    "name": "Spa Treatment",
+    "description": "General hair spa treatment.",
+    "category": "hair",
+    "subcategory": "Hair Spa",
+    "price": 1200,
+    "duration": 60,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646319/arpan-beauty-zone/services/spa-treatment.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/spa-treatment"
+  },
+  {
+    "name": "Highlights (per strip)",
+    "description": "Hair highlighting, priced per strip.",
+    "category": "hair",
+    "subcategory": "Hair Color",
+    "price": 150,
+    "priceLabel": "per strip, to ₹200",
+    "duration": 60,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646320/arpan-beauty-zone/services/highlights-per-strip.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/highlights-per-strip"
+  },
+  {
+    "name": "Streax Root Touchup",
+    "description": "Root touch-up using Streax color.",
+    "category": "hair",
+    "subcategory": "Root Touchup",
+    "price": 500,
+    "duration": 60,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646322/arpan-beauty-zone/services/streax-root-touchup.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/streax-root-touchup"
+  },
+  {
+    "name": "Matrix Root Touchup",
+    "description": "Root touch-up using Matrix color.",
+    "category": "hair",
+    "subcategory": "Root Touchup",
+    "price": 700,
+    "duration": 60,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646323/arpan-beauty-zone/services/matrix-root-touchup.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/matrix-root-touchup"
+  },
+  {
+    "name": "Loreal Root Touchup",
+    "description": "Root touch-up using L'Oreal color.",
+    "category": "hair",
+    "subcategory": "Root Touchup",
+    "price": 1000,
+    "duration": 60,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646324/arpan-beauty-zone/services/loreal-root-touchup.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/loreal-root-touchup"
+  },
+  {
+    "name": "Full Highlights",
+    "description": "Full-head highlighting.",
+    "category": "hair",
+    "subcategory": "Fashion Color",
+    "price": 2000,
+    "duration": 120,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646326/arpan-beauty-zone/services/full-highlights.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/full-highlights"
+  },
+  {
+    "name": "Highlights with Global Color",
+    "description": "Highlights combined with a global color.",
+    "category": "hair",
+    "subcategory": "Fashion Color",
+    "price": 3500,
+    "duration": 150,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646327/arpan-beauty-zone/services/highlights-with-global-color.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/highlights-with-global-color"
+  },
+  {
+    "name": "Half Length Color",
+    "description": "Color application for half hair length.",
+    "category": "hair",
+    "subcategory": "Fashion Color",
+    "price": 1500,
+    "duration": 90,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646328/arpan-beauty-zone/services/half-length-color.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/half-length-color"
+  },
+  {
+    "name": "Balayage",
+    "description": "Hand-painted balayage color technique.",
+    "category": "hair",
+    "subcategory": "Fashion Color",
+    "price": 3500,
+    "duration": 150,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646329/arpan-beauty-zone/services/balayage.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/balayage"
+  },
+  {
+    "name": "Ombre",
+    "description": "Ombre color technique.",
+    "category": "hair",
+    "subcategory": "Fashion Color",
+    "price": 3500,
+    "duration": 150,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646331/arpan-beauty-zone/services/ombre.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/ombre"
+  },
+  {
+    "name": "Streax Global Color",
+    "description": "Full-head global color using Streax.",
+    "category": "hair",
+    "subcategory": "Fashion Color",
+    "price": 1500,
+    "duration": 90,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646332/arpan-beauty-zone/services/streax-global-color.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/streax-global-color"
+  },
+  {
+    "name": "Matrix Global Color",
+    "description": "Full-head global color using Matrix.",
+    "category": "hair",
+    "subcategory": "Fashion Color",
+    "price": 2000,
+    "duration": 90,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646333/arpan-beauty-zone/services/matrix-global-color.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/matrix-global-color"
+  },
+  {
+    "name": "Loreal Global Color",
+    "description": "Full-head global color using L'Oreal.",
+    "category": "hair",
+    "subcategory": "Fashion Color",
+    "price": 3500,
+    "duration": 90,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646335/arpan-beauty-zone/services/loreal-global-color.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/loreal-global-color"
+  },
+  {
+    "name": "Cap Highlights",
+    "description": "Highlighting using the cap technique.",
+    "category": "hair",
+    "subcategory": "Fashion Color",
+    "price": 2500,
+    "duration": 120,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646336/arpan-beauty-zone/services/cap-highlights.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/cap-highlights"
+  },
+  {
+    "name": "Keratin Treatment",
+    "description": "Keratin smoothing hair treatment.",
+    "category": "hair",
+    "subcategory": "Hair Treatment",
+    "price": 3500,
+    "priceLabel": "Onward",
+    "duration": 150,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646337/arpan-beauty-zone/services/keratin-treatment.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/keratin-treatment"
+  },
+  {
+    "name": "Smoothening Treatment",
+    "description": "Hair smoothening treatment.",
+    "category": "hair",
+    "subcategory": "Hair Treatment",
+    "price": 4000,
+    "priceLabel": "Onward",
+    "duration": 150,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646338/arpan-beauty-zone/services/smoothening-treatment.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/smoothening-treatment"
+  },
+  {
+    "name": "Rebounding Treatment",
+    "description": "Hair rebonding treatment.",
+    "category": "hair",
+    "subcategory": "Hair Treatment",
+    "price": 4000,
+    "priceLabel": "Onward",
+    "duration": 180,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646340/arpan-beauty-zone/services/rebounding-treatment.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/rebounding-treatment"
+  },
+  {
+    "name": "Botox Hair Treatment",
+    "description": "Deep-conditioning hair botox treatment.",
+    "category": "hair",
+    "subcategory": "Hair Treatment",
+    "price": 5500,
+    "priceLabel": "Onward",
+    "duration": 150,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646341/arpan-beauty-zone/services/botox-hair-treatment.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/botox-hair-treatment"
+  },
+  {
+    "name": "Basic Party Makeup",
+    "description": "Quick, soft and refreshing glam for simple occasions.",
+    "category": "makeup",
+    "subcategory": "Party Makeup",
+    "price": 2499,
+    "duration": 60,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646342/arpan-beauty-zone/services/basic-party-makeup.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/basic-party-makeup"
+  },
+  {
+    "name": "HD Party Makeup",
+    "description": "Photo-ready base with defined eyes — perfect for parties & celebrations.",
+    "category": "makeup",
+    "subcategory": "Party Makeup",
+    "price": 3999,
+    "duration": 75,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646344/arpan-beauty-zone/services/hd-party-makeup.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/hd-party-makeup"
+  },
+  {
+    "name": "Airbrush Party Makeup",
+    "description": "Long-lasting, sweat-proof makeup ideal for long events & outdoor functions.",
+    "category": "makeup",
+    "subcategory": "Party Makeup",
+    "price": 4999,
+    "duration": 90,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646345/arpan-beauty-zone/services/airbrush-party-makeup.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/airbrush-party-makeup"
+  },
+  {
+    "name": "Haldi Natural Look",
+    "description": "Fresh, minimal and dewy makeup perfect for daytime haldi ceremonies.",
+    "category": "makeup",
+    "subcategory": "Haldi / Mehendi Makeup",
+    "price": 2999,
+    "duration": 60,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646347/arpan-beauty-zone/services/haldi-natural-look.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/haldi-natural-look"
+  },
+  {
+    "name": "HD Mehendi Look",
+    "description": "Clean, bright and vibrant look ideal for mehendi celebrations.",
+    "category": "makeup",
+    "subcategory": "Haldi / Mehendi Makeup",
+    "price": 3999,
+    "duration": 75,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646348/arpan-beauty-zone/services/hd-mehendi-look.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/hd-mehendi-look"
+  },
+  {
+    "name": "Soft Glam Function Look",
+    "description": "Light glam with subtle shimmer — best for pre-wedding daytime events.",
+    "category": "makeup",
+    "subcategory": "Haldi / Mehendi Makeup",
+    "price": 4999,
+    "duration": 90,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646350/arpan-beauty-zone/services/soft-glam-function-look.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/soft-glam-function-look"
+  },
+  {
+    "name": "Soft Glam Engagement",
+    "description": "Fresh, natural and glowing look perfect for roka & engagement ceremonies.",
+    "category": "makeup",
+    "subcategory": "Engagement / Roka Makeup",
+    "price": 5999,
+    "duration": 90,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646352/arpan-beauty-zone/services/soft-glam-engagement.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/soft-glam-engagement"
+  },
+  {
+    "name": "HD Engagement",
+    "description": "Smooth, flawless HD base with enhanced features — great for photos & videos.",
+    "category": "makeup",
+    "subcategory": "Engagement / Roka Makeup",
+    "price": 7999,
+    "duration": 105,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646353/arpan-beauty-zone/services/hd-engagement.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/hd-engagement"
+  },
+  {
+    "name": "Airbrush Engagement",
+    "description": "Lightweight, long-lasting, waterproof look ideal for long ceremonies.",
+    "category": "makeup",
+    "subcategory": "Engagement / Roka Makeup",
+    "price": 9999,
+    "duration": 120,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646354/arpan-beauty-zone/services/airbrush-engagement.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/airbrush-engagement"
+  },
+  {
+    "name": "Signature Engagement Look",
+    "description": "Premium, customised glam inspired by celebrity engagement looks.",
+    "category": "makeup",
+    "subcategory": "Engagement / Roka Makeup",
+    "price": 11999,
+    "duration": 150,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646355/arpan-beauty-zone/services/signature-engagement-look.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/signature-engagement-look"
+  },
+  {
+    "name": "HD Bridal Makeup",
+    "description": "High-definition, flawless base with smooth coverage — ideal for photography, videography & long events.",
+    "category": "makeup",
+    "subcategory": "Bridal Makeup",
+    "price": 9999,
+    "duration": 120,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646357/arpan-beauty-zone/services/hd-bridal-makeup.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/hd-bridal-makeup"
+  },
+  {
+    "name": "3D Bridal Makeup",
+    "description": "Perfect contouring with depth & dimension, giving a naturally sculpted and radiant look.",
+    "category": "makeup",
+    "subcategory": "Bridal Makeup",
+    "price": 11999,
+    "duration": 150,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646358/arpan-beauty-zone/services/3d-bridal-makeup.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/3d-bridal-makeup"
+  },
+  {
+    "name": "HD Glossy Bridal Makeup",
+    "description": "Flawless HD base with a soft glossy glow for a radiant, camera-ready bridal look.",
+    "category": "makeup",
+    "subcategory": "Bridal Makeup",
+    "price": 14999,
+    "duration": 150,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646360/arpan-beauty-zone/services/hd-glossy-bridal-makeup.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/hd-glossy-bridal-makeup"
+  },
+  {
+    "name": "Airbrush Bridal Makeup",
+    "description": "Waterproof, lightweight and long-lasting makeup using airbrush technique for a radiant, sweat-proof finish.",
+    "category": "makeup",
+    "subcategory": "Bridal Makeup",
+    "price": 19999,
+    "duration": 180,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646361/arpan-beauty-zone/services/airbrush-bridal-makeup.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/airbrush-bridal-makeup"
+  },
+  {
+    "name": "Signature Bridal Makeup",
+    "description": "Exclusive luxury bridal makeover curated personally — ultra-polished, timeless and red-carpet inspired.",
+    "category": "makeup",
+    "subcategory": "Bridal Makeup",
+    "price": 24999,
+    "duration": 210,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646363/arpan-beauty-zone/services/signature-bridal-makeup.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/signature-bridal-makeup"
+  },
+  {
+    "name": "HD Reception Look",
+    "description": "Elegant evening glam with a flawless HD finish for stunning reception photos.",
+    "category": "makeup",
+    "subcategory": "Reception Makeup",
+    "price": 6999,
+    "duration": 90,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646365/arpan-beauty-zone/services/hd-reception-look.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/hd-reception-look"
+  },
+  {
+    "name": "Airbrush Reception",
+    "description": "Smooth, waterproof and durable base for grand evening functions.",
+    "category": "makeup",
+    "subcategory": "Reception Makeup",
+    "price": 9999,
+    "duration": 120,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646366/arpan-beauty-zone/services/airbrush-reception.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/airbrush-reception"
+  },
+  {
+    "name": "Signature Reception Look",
+    "description": "Rich, glamorous and luxurious makeover for a royal reception appearance.",
+    "category": "makeup",
+    "subcategory": "Reception Makeup",
+    "price": 14999,
+    "duration": 150,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646367/arpan-beauty-zone/services/signature-reception-look.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/signature-reception-look"
+  },
+  {
+    "name": "Corporate Makeup",
+    "description": "Professional, clean and polished look suitable for shoots & business portraits.",
+    "category": "makeup",
+    "subcategory": "Corporate / Photoshoot Makeup",
+    "price": 4999,
+    "duration": 45,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646368/arpan-beauty-zone/services/corporate-makeup.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/corporate-makeup"
+  },
+  {
+    "name": "Outdoor Shoot Makeup",
+    "description": "Smooth, flawless HD base with enhanced features — great for photos & videos.",
+    "category": "makeup",
+    "subcategory": "Corporate / Photoshoot Makeup",
+    "price": 7999,
+    "duration": 75,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787657394/arpan-beauty-zone/services/outdoor-shoot-makeup.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/outdoor-shoot-makeup"
+  },
+  {
+    "name": "Beautician Course – Basic to Advance",
+    "description": "Specialization in hair, skin, and makeup service with certification as a Makeup Artist.",
+    "category": "courses",
+    "subcategory": "Beautician Course",
+    "price": 45000,
+    "durationLabel": "6 Months",
+    "bookable": false,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646371/arpan-beauty-zone/services/beautician-course-basic-to-advance.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/beautician-course-basic-to-advance"
+  },
+  {
+    "name": "Certification in Makeup Course",
+    "description": "Advance-level makeup certification course.",
+    "category": "courses",
+    "subcategory": "Certification Courses",
+    "price": 14999,
+    "durationLabel": "1 Month",
+    "bookable": false,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646372/arpan-beauty-zone/services/certification-in-makeup-course.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/certification-in-makeup-course"
+  },
+  {
+    "name": "Certification in Hair Course",
+    "description": "Advance-level hair certification course.",
+    "category": "courses",
+    "subcategory": "Certification Courses",
+    "price": 6999,
+    "durationLabel": "1 Month",
+    "bookable": false,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787657399/arpan-beauty-zone/services/certification-in-hair-course.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/certification-in-hair-course"
+  },
+  {
+    "name": "Certification in Nail Art Course",
+    "description": "Advance-level nail art certification course.",
+    "category": "courses",
+    "subcategory": "Certification Courses",
+    "price": 2999,
+    "durationLabel": "10 Days",
+    "bookable": false,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646375/arpan-beauty-zone/services/certification-in-nail-art-course.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/certification-in-nail-art-course"
+  },
+  {
+    "name": "Certification in HydraFacial Course",
+    "description": "Advance-level HydraFacial certification course.",
+    "category": "courses",
+    "subcategory": "Certification Courses",
+    "price": 1999,
+    "durationLabel": "1 Day",
+    "bookable": false,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646376/arpan-beauty-zone/services/certification-in-hydrafacial-course.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/certification-in-hydrafacial-course"
+  },
+  {
+    "name": "Certification in Airbrush Makeup Course",
+    "description": "Advance-level airbrush makeup certification course.",
+    "category": "courses",
+    "subcategory": "Certification Courses",
+    "price": 2999,
+    "durationLabel": "1 Day",
+    "bookable": false,
+    "imageUrl": "https://res.cloudinary.com/q8lnxxca/image/upload/v1787646377/arpan-beauty-zone/services/certification-in-airbrush-makeup-course.jpg",
+    "imagePublicId": "arpan-beauty-zone/services/certification-in-airbrush-makeup-course"
+  }
+]

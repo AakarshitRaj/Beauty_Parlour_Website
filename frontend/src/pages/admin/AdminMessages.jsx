@@ -234,7 +234,7 @@ const AdminMessages = () => {
               {/* Actions */}
               <div className="flex flex-wrap gap-3">
                 <a
-                  href={`mailto:${selected.email}?subject=Re: Your inquiry at Glow %26 Glam`}
+                  href={`mailto:${selected.email}?subject=Re: Your inquiry at Arpan's Beauty Zone %26 Academy`}
                   onClick={() => handleUpdate('replied')}
                   className="btn-primary flex items-center gap-2 text-sm py-2.5"
                 >

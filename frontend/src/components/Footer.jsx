@@ -3,10 +3,9 @@ import { FiInstagram, FiFacebook, FiTwitter, FiMail, FiPhone, FiMapPin } from 'r
 
 const Footer = () => {
   const serviceLinks = [
-    { label: 'Luxury Facials',      to: '/services?category=facial'  },
+    { label: 'Luxury Facials',      to: '/services?category=skin'  },
     { label: 'Hair Styling',         to: '/services?category=hair'    },
     { label: 'Bridal Makeup',        to: '/services?category=makeup'  },
-    { label: 'Aromatherapy Spa',     to: '/services?category=spa'     },
     { label: 'Manicure & Pedicure',  to: '/services?category=nails'   },
     { label: 'Party Makeup',         to: '/services?category=makeup'  },
   ];
@@ -28,21 +27,23 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <h3 className="text-2xl font-serif text-white font-semibold mb-4">
-              Glow <span className="text-gold">&</span> Glam
+              Arpan's Beauty Zone <span className="text-gold">&</span> Academy
             </h3>
             <p className="text-sm leading-relaxed text-gray-400 mb-6">
-              Where beauty meets luxury. Premium treatments curated for the modern woman.
+             Professional makeup artistry and beauty services in Sasaram, specializing
+    in bridal makeup, party makeup, HD makeup, airbrush makeup, and professional
+    makeup training.
             </p>
             <div className="flex gap-4">
-              <a href="#" aria-label="Instagram" className="w-9 h-9 bg-gold/20 rounded-full flex items-center justify-center text-gold hover:bg-gold hover:text-white transition-all">
+              <a href="https://www.instagram.com/arpans_beauty_zone_ssm" aria-label="Instagram" className="w-9 h-9 bg-gold/20 rounded-full flex items-center justify-center text-gold hover:bg-gold hover:text-white transition-all">
                 <FiInstagram size={16} />
               </a>
-              <a href="#" aria-label="Facebook" className="w-9 h-9 bg-gold/20 rounded-full flex items-center justify-center text-gold hover:bg-gold hover:text-white transition-all">
+              <a href="https://www.facebook.com/richasatyasoni/" aria-label="Facebook" className="w-9 h-9 bg-gold/20 rounded-full flex items-center justify-center text-gold hover:bg-gold hover:text-white transition-all">
                 <FiFacebook size={16} />
               </a>
-              <a href="#" aria-label="Twitter" className="w-9 h-9 bg-gold/20 rounded-full flex items-center justify-center text-gold hover:bg-gold hover:text-white transition-all">
+              {/* <a href="#" aria-label="Twitter" className="w-9 h-9 bg-gold/20 rounded-full flex items-center justify-center text-gold hover:bg-gold hover:text-white transition-all">
                 <FiTwitter size={16} />
-              </a>
+              </a> */}
             </div>
           </div>
 
@@ -84,16 +85,16 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex gap-3 text-sm text-gray-400">
                 <FiMapPin className="text-gold mt-0.5 flex-shrink-0" size={16} />
-                <span>123 Beauty Lane, Bandra West, Mumbai, Maharashtra 400050</span>
+                <span>Arpan's Beauty Zone & Academy, Sasaram, Rohtas, Bihar, India</span>
               </li>
               <li className="flex gap-3 text-sm text-gray-400">
                 <FiPhone className="text-gold flex-shrink-0" size={16} />
-                <a href="tel:+919876543210" className="hover:text-gold">+91 98765 43210</a>
+                <a href="tel:+918210551159" className="hover:text-gold">+91 82105 51159</a>
               </li>
-              <li className="flex gap-3 text-sm text-gray-400">
+              {/* <li className="flex gap-3 text-sm text-gray-400">
                 <FiMail className="text-gold flex-shrink-0" size={16} />
-                <a href="mailto:hello@glowglam.com" className="hover:text-gold">hello@glowglam.com</a>
-              </li>
+                <a href="mailto:arpansbeautyzone@gmail.com" className="hover:text-gold">arpansbeautyzone@gmail.com</a>
+              </li> */}
             </ul>
             <div className="mt-5 text-xs text-gray-500 space-y-1">
               <p>Mon – Sat: 10:00 AM – 8:00 PM</p>
@@ -104,7 +105,7 @@ const Footer = () => {
 
         {/* Bottom bar */}
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-xs text-gray-500">© {new Date().getFullYear()} Glow & Glam. All rights reserved.</p>
+          <p className="text-xs text-gray-500">© {new Date().getFullYear()} Arpan's Beauty Zone & Academy. All rights reserved.</p>
           <div className="flex gap-6 text-xs text-gray-500">
             <Link to="/privacy-policy"   className="hover:text-gold transition-colors">Privacy Policy</Link>
             <Link to="/terms-of-service" className="hover:text-gold transition-colors">Terms of Service</Link>

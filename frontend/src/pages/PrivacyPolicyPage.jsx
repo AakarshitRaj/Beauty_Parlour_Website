@@ -29,7 +29,7 @@ const PrivacyPolicyPage = () => {
         <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 md:p-12">
 
           <p className="text-gray-600 leading-relaxed mb-8">
-            Welcome to Glow & Glam. We are committed to protecting your personal information and your right to privacy.
+            Welcome to Arpan's Beauty Zone & Academy. We are committed to protecting your personal information and your right to privacy.
             This Privacy Policy explains how we collect, use, and safeguard your information when you visit our website
             or use our services.
           </p>
@@ -123,10 +123,10 @@ const PrivacyPolicyPage = () => {
           <Section title="10. Contact Us">
             <p>If you have any questions about this Privacy Policy or our privacy practices, please contact us:</p>
             <div className="bg-cream rounded-xl p-4 mt-3 space-y-1">
-              <p><strong>Glow & Glam</strong></p>
-              <p>123 Beauty Lane, Bandra West, Mumbai, Maharashtra 400050</p>
-              <p>Email: <a href="mailto:hello@glowglam.com" className="text-gold hover:underline">hello@glowglam.com</a></p>
-              <p>Phone: <a href="tel:+919876543210" className="text-gold hover:underline">+91 98765 43210</a></p>
+              <p><strong>Arpan's Beauty Zone & Academy</strong></p>
+              <p>Sasaram, Rohtas, Bihar, India</p>
+              {/* <p>Email: <a href="mailto:arpanbeauty@gmail.com" className="text-gold hover:underline">arpanbeauty@gmail.com</a></p> */}
+              <p>Phone: <a href="tel:+918210551159" className="text-gold hover:underline">+91 82105 51159</a></p>
             </div>
           </Section>
 

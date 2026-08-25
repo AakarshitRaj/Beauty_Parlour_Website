@@ -42,8 +42,9 @@ const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
             <span className={`text-2xl font-serif font-bold tracking-wide ${transparent ? 'text-white' : 'text-charcoal'}`}>
-              Glow <span className="text-gold">&</span> Glam
+              Arpan's Beauty Zone <span className="text-gold">&</span> Academy
             </span>
+            
           </Link>
 
           {/* Desktop Nav */}

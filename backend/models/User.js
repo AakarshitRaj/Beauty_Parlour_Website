@@ -1,25 +1,25 @@
 const mongoose = require('mongoose');
 const bcrypt   = require('bcryptjs');
 
-const userSchema = new mongoose.Schema({
-  name:     { type: String, required: true, trim: true },
-  phone:    { type: String, required: true, trim: true },
-  email:    { type: String, sparse: true, trim: true, lowercase: true },
-  password: { type: String, required: true },
-  role:     { type: String, enum: ['user', 'admin'], default: 'user' },
-  createdAt:{ type: Date, default: Date.now },
+// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+//  🔧 SECURITY CONFIG — change these 2 values anytime
+// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+const MAX_ATTEMPTS  = 10;              // wrong passwords before lockout
+const LOCK_DURATION = 2 * 60 * 1000;  // lockout duration in ms (5 min)
+// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-  // ── Account-level lockout fields ─────────────────────────────────────────
-  // Stored in DB so IP change / VPN cannot bypass it
+const userSchema = new mongoose.Schema({
+  name:          { type: String, required: true, trim: true },
+  phone:         { type: String, required: true, trim: true },
+  email:         { type: String, sparse: true, trim: true, lowercase: true },
+  password:      { type: String, required: true },
+  role:          { type: String, enum: ['user', 'admin'], default: 'user' },
+  createdAt:     { type: Date, default: Date.now },
   loginAttempts: { type: Number, default: 0 },
-  lockUntil:     { type: Date,   default: null },
+  lockUntil:     { type: Date, default: null },
 });
 
-// ── Lockout constants ─────────────────────────────────────────────────────
-const MAX_ATTEMPTS    = 5;
-const LOCK_DURATION   = 15 * 60 * 1000; // 15 minutes in ms
-
-// Virtual — true if account is currently locked
+// true if account is currently locked
 userSchema.virtual('isLocked').get(function () {
   return this.lockUntil && this.lockUntil > Date.now();
 });
@@ -31,10 +31,8 @@ userSchema.pre('save', async function (next) {
   next();
 });
 
-// Compare password — also handles lockout logic
 userSchema.methods.comparePassword = async function (candidatePassword) {
-
-  // Lock expired — reset counter using updateOne to skip pre('save') password rehash
+  // Lock expired — reset counter (use updateOne to skip pre-save hook)
   if (this.lockUntil && this.lockUntil <= Date.now()) {
     await this.constructor.updateOne(
       { _id: this._id },
@@ -44,7 +42,7 @@ userSchema.methods.comparePassword = async function (candidatePassword) {
     this.lockUntil     = null;
   }
 
-  // If still locked (not expired), reject immediately
+  // Still locked
   if (this.isLocked) {
     return { success: false, locked: true, lockUntil: this.lockUntil };
   }
@@ -52,7 +50,7 @@ userSchema.methods.comparePassword = async function (candidatePassword) {
   const isMatch = await bcrypt.compare(candidatePassword, this.password);
 
   if (isMatch) {
-    // Correct password — reset lockout counters
+    // Correct — reset counters
     if (this.loginAttempts > 0 || this.lockUntil) {
       await this.constructor.updateOne(
         { _id: this._id },
@@ -62,7 +60,7 @@ userSchema.methods.comparePassword = async function (candidatePassword) {
     return { success: true };
   }
 
-  // Wrong password — increment attempts using updateOne to skip pre('save')
+  // Wrong — increment
   const newAttempts = this.loginAttempts + 1;
   const lockUntil   = newAttempts >= MAX_ATTEMPTS
     ? new Date(Date.now() + LOCK_DURATION)

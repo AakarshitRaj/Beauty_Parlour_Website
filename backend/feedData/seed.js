@@ -4,10 +4,10 @@ const bcrypt = require('bcryptjs');
 
 dotenv.config();
 
-const User = require('./models/User');
-const Service = require('./models/Service');
-const SiteContent = require('./models/SiteContent');
-const Gallery = require('./models/Gallery');
+const User = require('../models/User');
+const Service = require('../models/Service');
+const SiteContent = require('../models/SiteContent');
+const Gallery = require('../models/Gallery');
 
 const seedData = async () => {
   try {

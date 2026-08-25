@@ -9,3 +9,4 @@ router.post('/logout',   logout);        // clears httpOnly cookie
 router.get('/me',        protect, getMe);
 
 module.exports = router;
+

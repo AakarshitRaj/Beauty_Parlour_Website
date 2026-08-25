@@ -29,7 +29,7 @@ const TermsOfServicePage = () => {
         <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 md:p-12">
 
           <p className="text-gray-600 leading-relaxed mb-8">
-            Please read these Terms of Service carefully before using the Glow & Glam website or booking any of our
+            Please read these Terms of Service carefully before using the Arpan's Beauty Zone & Academy website or booking any of our
             services. By accessing our website or making a booking, you agree to be bound by these terms.
           </p>
 
@@ -46,7 +46,7 @@ const TermsOfServicePage = () => {
               <li>All appointments must be booked in advance through our website or by contacting us directly.</li>
               <li>Bookings are confirmed only after payment of the required advance amount (or full payment).</li>
               <li>Please arrive at least 10 minutes before your scheduled appointment time.</li>
-              <li>Glow & Glam reserves the right to reschedule appointments in case of unforeseen circumstances, with prior notice.</li>
+              <li>Arpan's Beauty Zone & Academy reserves the right to reschedule appointments in case of unforeseen circumstances, with prior notice.</li>
               <li>We reserve the right to refuse service to anyone who is rude, abusive, or behaves inappropriately toward our staff.</li>
             </ul>
           </Section>
@@ -59,7 +59,7 @@ const TermsOfServicePage = () => {
               <li>Cancellations must be made through our website or by calling us directly</li>
             </ul>
             <p>
-              In case of cancellation by Glow & Glam (e.g., due to staff unavailability or emergencies), you will
+              In case of cancellation by Arpan's Beauty Zone & Academy (e.g., due to staff unavailability or emergencies), you will
               receive a full refund and be offered a priority rescheduling slot.
             </p>
           </Section>
@@ -78,7 +78,7 @@ const TermsOfServicePage = () => {
             <ul className="list-disc list-inside space-y-2 ml-2">
               <li>Service results may vary depending on individual skin/hair type and condition.</li>
               <li>Please inform our staff of any allergies, skin conditions, or medical conditions before your appointment.</li>
-              <li>Glow & Glam is not liable for adverse reactions resulting from undisclosed medical conditions or allergies.</li>
+              <li>Arpan's Beauty Zone & Academyis not liable for adverse reactions resulting from undisclosed medical conditions or allergies.</li>
               <li>We use professional-grade products; however, if you have known sensitivities, please bring this to our attention.</li>
               <li>Service durations are approximate and may vary.</li>
             </ul>
@@ -98,14 +98,14 @@ const TermsOfServicePage = () => {
           <Section title="7. Intellectual Property">
             <p>
               All content on this website, including text, images, logos, and graphics, is the property of
-              Glow & Glam and is protected by applicable intellectual property laws. You may not reproduce,
+              Arpan's Beauty Zone & Academy and is protected by applicable intellectual property laws. You may not reproduce,
               distribute, or use any content without our prior written consent.
             </p>
           </Section>
 
           <Section title="8. Limitation of Liability">
             <p>
-              To the maximum extent permitted by law, Glow & Glam shall not be liable for any indirect,
+              To the maximum extent permitted by law, Arpan's Beauty Zone & Academyshall not be liable for any indirect,
               incidental, special, or consequential damages arising from your use of our services or website.
               Our total liability shall not exceed the amount you paid for the specific service in question.
             </p>
@@ -130,10 +130,10 @@ const TermsOfServicePage = () => {
           <Section title="11. Contact Us">
             <p>For questions about these Terms of Service, please contact us:</p>
             <div className="bg-cream rounded-xl p-4 mt-3 space-y-1">
-              <p><strong>Glow & Glam</strong></p>
-              <p>123 Beauty Lane, Bandra West, Mumbai, Maharashtra 400050</p>
-              <p>Email: <a href="mailto:hello@glowglam.com" className="text-gold hover:underline">hello@glowglam.com</a></p>
-              <p>Phone: <a href="tel:+919876543210" className="text-gold hover:underline">+91 98765 43210</a></p>
+              <p><strong>Arpan's Beauty Zone & Academy</strong></p>
+              <p>Sasaram, Rohtas, Bihar, India</p>
+              {/* <p>Email: <a href="mailto:arpanbeauty@gmail.com" className="text-gold hover:underline">arpanbeauty@gmail.com</a></p> */}
+              <p>Phone: <a href="tel:+918210551159" className="text-gold hover:underline">+91 82105 51159</a></p>
             </div>
           </Section>
 

@@ -8,8 +8,10 @@ const xss            = require('xss-clean');
 const rateLimit      = require('express-rate-limit');
 const cookieParser   = require('cookie-parser');
 const { globalErrorHandler } = require('./utils/errorHandler');
+const keepAlive = require('./utils/keepAlive');
 
 dotenv.config();
+
 
 const app  = express();
 const isProd = process.env.NODE_ENV === 'production';
@@ -59,9 +61,15 @@ app.use(xss());
 // ─── 8. Rate Limiters ───────────────────────────────────────────────────────
 const globalLimiter = rateLimit({
   windowMs: 15 * 60 * 1000,
-  max: 100,
+  max: 500,
   standardHeaders: true,
   legacyHeaders: false,
+  skip: (req) => {
+    // Skip rate limiting for authenticated admin users entirely
+    const token = req.cookies?.token ||
+      req.headers.authorization?.split(' ')[1];
+    return !!token; // logged-in users are never rate limited globally
+  },
   message: { message: 'Too many requests, please try again in 15 minutes.' },
 });
 
@@ -75,13 +83,13 @@ const authLimiter = rateLimit({
 
 const contactLimiter = rateLimit({
   windowMs: 60 * 60 * 1000,
-  max: 5,
+  max: 10,
   message: { message: 'Too many messages sent. Please try again later.' },
 });
 
 const paymentLimiter = rateLimit({
   windowMs: 15 * 60 * 1000,
-  max: 20,
+  max: 50,
   message: { message: 'Too many payment requests. Please try again later.' },
 });
 
@@ -105,7 +113,7 @@ app.use('/api/contact', (req, res, next) => {
 }, contactRouter);
 
 // ─── Health Check ────────────────────────────────────────────────────────────
-app.get('/health', (req, res) => res.json({ status: 'OK', message: 'Glow & Glam API is running' }));
+app.get('/health', (req, res) => res.json({ status: 'OK', message: 'Arpans Beauty Zone & Academy API is running' }));
 
 // ─── 404 Handler ─────────────────────────────────────────────────────────────
 app.use((req, res) => res.status(404).json({ message: 'Route not found' }));
@@ -117,8 +125,15 @@ app.use(globalErrorHandler);
 mongoose.connect(process.env.MONGO_URI)
   .then(() => {
     console.log('✅ Connected to MongoDB');
+
     const PORT = process.env.PORT || 5000;
-    app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
+
+    app.listen(PORT, () => {
+      console.log(`🚀 Server running on port ${PORT}`);
+
+      // Start keep-alive
+      keepAlive(process.env.RENDER_EXTERNAL_URL);
+    });
   })
   .catch(err => {
     console.error('❌ MongoDB connection failed:', err);

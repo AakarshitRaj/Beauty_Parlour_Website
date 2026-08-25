@@ -238,7 +238,7 @@ const AdminPaymentSettings = () => {
               name="upiId"
               value={settings.methods.upi.upiId}
               onChange={e => setMethod('upi', 'upiId', e.target.value)}
-              placeholder="glowglam@upi"
+              placeholder="arpanbeauty@upi"
               hint="e.g. name@okaxis · name@ybl · 9876543210@upi"
             />
             <Field
@@ -246,7 +246,7 @@ const AdminPaymentSettings = () => {
               name="upiName"
               value={settings.methods.upi.upiName}
               onChange={e => setMethod('upi', 'upiName', e.target.value)}
-              placeholder="Glow & Glam"
+              placeholder="Arpan's Beauty Zone & Academy"
               hint="Name shown in customer's payment app"
             />
           </div>

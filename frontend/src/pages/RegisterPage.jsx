@@ -37,7 +37,7 @@ const RegisterPage = () => {
     setLoading(true);
     try {
       const data = await register({ name: form.name, phone: form.phone, email: form.email, password: form.password });
-      toast.success(`Welcome to Glow & Glam, ${data.user.name}!`);
+      toast.success(`Welcome to Arpan's Beauty Zone & Academy, ${data.user.name}!`);
       navigate('/');
     } catch (err) {
       toast.error(err.response?.data?.message || 'Registration failed');
@@ -53,7 +53,7 @@ const RegisterPage = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-transparent to-black/30" />
         <div className="absolute top-12 left-12">
           <Link to="/" className="text-2xl font-serif font-bold text-white">
-            Glow <span className="text-gold">&</span> Glam
+            Arpan's Beauty Zone <span className="text-gold">&</span> Academy
           </Link>
         </div>
       </div>
@@ -61,7 +61,7 @@ const RegisterPage = () => {
       <div className="flex items-center justify-center p-8 bg-cream overflow-y-auto">
         <div className="w-full max-w-md py-8">
           <Link to="/" className="text-2xl font-serif font-bold text-charcoal mb-12 block lg:hidden">
-            Glow <span className="text-gold">&</span> Glam
+            Arpan's Beauty Zone <span className="text-gold">&</span> Academy
           </Link>
           <h1 className="text-4xl font-serif font-bold text-charcoal mb-2">Create Account</h1>
           <p className="text-gray-400 mb-10">Join us and start your beauty journey</p>
@@ -121,6 +121,10 @@ const RegisterPage = () => {
           <p className="text-center text-sm text-gray-500 mt-8">
             Already have an account?{' '}
             <Link to="/login" className="text-gold hover:text-gold-dark font-medium">Sign In</Link>
+          </p>
+          <p className="text-center text-sm text-gray-500 mt-8">
+            Return to{' '}
+            <Link to="/" className="text-gold hover:text-gold-dark font-medium">Home</Link>
           </p>
         </div>
       </div>

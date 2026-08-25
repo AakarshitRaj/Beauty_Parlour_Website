@@ -5,23 +5,31 @@ const AuthContext = createContext(null);
 
 export const AuthProvider = ({ children }) => {
   const [user, setUser]       = useState(null);
+  // Start as true — prevents any redirect until we finish checking
   const [loading, setLoading] = useState(true);
 
-  // On mount — verify session by calling /api/auth/me
-  // This works whether token is in httpOnly cookie or localStorage
   useEffect(() => {
     const verifySession = async () => {
-      try {
-        // Try to restore from localStorage first (fast, no network)
-        const storedUser = localStorage.getItem('user');
-        if (storedUser) setUser(JSON.parse(storedUser));
+      // Restore from localStorage immediately (no flicker)
+      const storedUser = localStorage.getItem('user');
+      if (storedUser) {
+        try { setUser(JSON.parse(storedUser)); } catch { /* corrupt data */ }
+      }
 
-        // Then verify with server (catches expired/invalid tokens)
-        const { data } = await api.get('/auth/me');
+      // Then verify with server in background
+      const token = localStorage.getItem('token');
+      if (!token && !document.cookie.includes('token')) {
+        // No token at all — definitely not logged in
+        setLoading(false);
+        return;
+      }
+
+      try {
+        const { data } = await api.get('/auth/me', { _skipRedirect: true });
         setUser(data.user);
         localStorage.setItem('user', JSON.stringify(data.user));
       } catch {
-        // Token invalid or expired — clear everything
+        // Token invalid — clear everything silently (no redirect here)
         localStorage.removeItem('token');
         localStorage.removeItem('user');
         setUser(null);
@@ -29,14 +37,12 @@ export const AuthProvider = ({ children }) => {
         setLoading(false);
       }
     };
+
     verifySession();
   }, []);
 
   const login = async (phone, password) => {
     const { data } = await api.post('/auth/login', { phone, password });
-
-    // Token is now set as httpOnly cookie by the server automatically
-    // Also store in localStorage as fallback for older sessions
     if (data.token) localStorage.setItem('token', data.token);
     localStorage.setItem('user', JSON.stringify(data.user));
     setUser(data.user);
@@ -45,7 +51,6 @@ export const AuthProvider = ({ children }) => {
 
   const register = async (formData) => {
     const { data } = await api.post('/auth/register', formData);
-
     if (data.token) localStorage.setItem('token', data.token);
     localStorage.setItem('user', JSON.stringify(data.user));
     setUser(data.user);
@@ -53,12 +58,7 @@ export const AuthProvider = ({ children }) => {
   };
 
   const logout = async () => {
-    try {
-      // Tell server to clear the httpOnly cookie
-      await api.post('/auth/logout');
-    } catch { /* ignore network errors on logout */ }
-
-    // Clear localStorage
+    try { await api.post('/auth/logout'); } catch { /* ignore */ }
     localStorage.removeItem('token');
     localStorage.removeItem('user');
     setUser(null);

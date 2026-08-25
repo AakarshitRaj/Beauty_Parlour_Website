@@ -1,33 +1,32 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL:       import.meta.env.VITE_API_URL || '/api',
-  timeout:       15000,
-  withCredentials: true,  // sends httpOnly cookies with every request (XSS fix)
+  baseURL:         import.meta.env.VITE_API_URL || '/api',
+  timeout:         15000,
+  withCredentials: true,
 });
 
-// Request interceptor — attach token from localStorage as fallback
-// (httpOnly cookie is sent automatically by the browser via withCredentials)
+// Attach token from localStorage
 api.interceptors.request.use((config) => {
   const token = localStorage.getItem('token');
-  if (token) {
-    config.headers.Authorization = `Bearer ${token}`;
-  }
+  if (token) config.headers.Authorization = `Bearer ${token}`;
   return config;
 });
 
-// Response interceptor — handle session expiry
+// Handle 401 — but NEVER redirect if it's a session-check call
 api.interceptors.response.use(
   (response) => response,
   (error) => {
-    if (error.response?.status === 401) {
+    const isSessionCheck = error.config?.url?.includes('/auth/me');
+    const isLoginPage    = window.location.pathname === '/login';
+
+    if (error.response?.status === 401 && !isSessionCheck && !isLoginPage) {
+      // Only redirect if it's NOT the session check and NOT already on login
       localStorage.removeItem('token');
       localStorage.removeItem('user');
-      // Only redirect if not already on login page
-      if (!window.location.pathname.includes('/login')) {
-        window.location.href = '/login';
-      }
+      window.location.href = '/login';
     }
+
     return Promise.reject(error);
   }
 );

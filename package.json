@@ -1,7 +1,7 @@
 {
-  "name": "glow-glam",
+  "name": "arpan-beauty",
   "version": "1.0.0",
-  "description": "Glow & Glam Beauty Parlour - Full Stack MERN App",
+  "description": "Arpan's Beauty Zone & Academy - Full Stack MERN App",
   "scripts": {
     "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
     "dev:backend": "cd backend && npm run dev",

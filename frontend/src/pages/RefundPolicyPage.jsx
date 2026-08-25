@@ -30,7 +30,7 @@ const RefundPolicyPage = () => {
         <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 md:p-12">
 
           <p className="text-gray-600 leading-relaxed mb-8">
-            At Glow & Glam, your satisfaction is our priority. This Refund Policy outlines the conditions under
+            At Arpan's Beauty Zone & Academy, your satisfaction is our priority. This Refund Policy outlines the conditions under
             which refunds are issued for appointments and services.
           </p>
 
@@ -53,7 +53,7 @@ const RefundPolicyPage = () => {
                   ['12–24 hours before appointment', '50% of advance',       'Free, once'],
                   ['Less than 12 hours notice',      'No refund',            'Not available'],
                   ['No-show (did not attend)',        'No refund',            'Not available'],
-                  ['Cancelled by Glow & Glam',       'Full refund',          'Priority slot offered'],
+                  ['Cancelled by Arpans Beauty Zone & Academy',       'Full refund',          'Priority slot offered'],
                 ].map(([when, refund, reschedule]) => (
                   <tr key={when} className="hover:bg-gray-50/50">
                     <td className="px-6 py-4 text-charcoal font-medium">{when}</td>
@@ -69,7 +69,7 @@ const RefundPolicyPage = () => {
             <p>You are eligible for a refund if:</p>
             <ul className="list-disc list-inside space-y-1 ml-2">
               <li>You cancel your appointment at least 24 hours before the scheduled time</li>
-              <li>Glow & Glam cancels or is unable to fulfill your booked appointment</li>
+              <li>Arpan's Beauty Zone & Academy cancels or is unable to fulfill your booked appointment</li>
               <li>A service was not delivered as described due to our error</li>
               <li>A technical error resulted in a duplicate payment</li>
             </ul>
@@ -90,7 +90,7 @@ const RefundPolicyPage = () => {
             <p>To request a refund, please follow these steps:</p>
             <ol className="list-decimal list-inside space-y-2 ml-2">
               <li>Cancel your booking through your account dashboard or by contacting us</li>
-              <li>Contact us via email at <a href="mailto:hello@glowglam.com" className="text-gold hover:underline">hello@glowglam.com</a> or call <a href="tel:+919876543210" className="text-gold hover:underline">+91 98765 43210</a></li>
+               <li>Contact us via {/*email at <a href="mailto:hello@glowglam.com" className="text-gold hover:underline">hello@glowglam.com</a> or */} Call <a href="tel:+919876543210" className="text-gold hover:underline">+91 98765 43210</a></li> 
               <li>Provide your booking ID, name, and reason for the refund request</li>
               <li>Our team will review and respond within 2 business days</li>
             </ol>
@@ -104,7 +104,7 @@ const RefundPolicyPage = () => {
               <li><strong>Cash payments:</strong> Refunded in cash at the salon or via UPI transfer within 2 business days</li>
             </ul>
             <p className="text-sm text-gray-400 mt-2">
-              Processing times may vary depending on your bank or payment provider. Glow & Glam is not responsible
+              Processing times may vary depending on your bank or payment provider. Arpan's Beauty Zone & Academy is not responsible
               for delays caused by financial institutions.
             </p>
           </Section>
@@ -145,10 +145,10 @@ const RefundPolicyPage = () => {
           <Section title="8. Contact Us">
             <p>For refund requests or questions about this policy, reach us at:</p>
             <div className="bg-cream rounded-xl p-4 mt-3 space-y-1">
-              <p><strong>Glow & Glam</strong></p>
-              <p>123 Beauty Lane, Bandra West, Mumbai, Maharashtra 400050</p>
-              <p>Email: <a href="mailto:hello@glowglam.com" className="text-gold hover:underline">hello@glowglam.com</a></p>
-              <p>Phone: <a href="tel:+919876543210" className="text-gold hover:underline">+91 98765 43210</a></p>
+              <p><strong>Arpan's Beauty Zone & Academy</strong></p>
+              <p>Sasaram, Rohtas, Bihar, India</p>
+              {/* <p>Email: <a href="mailto:arpanbeauty@gmail.com" className="text-gold hover:underline">arpanbeauty@gmail.com</a></p> */}
+              <p>Phone: <a href="tel:+918210551159" className="text-gold hover:underline">+91 82105 51159</a></p>
               <p className="text-xs text-gray-400 mt-2">Working hours: Mon–Sat 10AM–8PM, Sun 11AM–6PM</p>
             </div>
           </Section>

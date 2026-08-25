@@ -103,7 +103,7 @@ const BookingPage = () => {
           key:      order.keyId,
           amount:   order.amount,
           currency: order.currency,
-          name:     'Glow & Glam',
+          name:     'Arpans Beauty Zone & Academy',
           description: `Booking: ${service.name}`,
           order_id: order.orderId,
           handler: async response => {
@@ -258,8 +258,8 @@ const BookingPage = () => {
                           <input name="guestName" value={form.guestName} onChange={handleFormChange} placeholder="Your name" required className="input-field" /></div>
                         <div><label className="label">Phone *</label>
                           <input name="guestPhone" value={form.guestPhone} onChange={handleFormChange} placeholder="+91 XXXXX XXXXX" required className="input-field" /></div>
-                        <div className="sm:col-span-2"><label className="label">Email (Optional)</label>
-                          <input name="guestEmail" value={form.guestEmail} onChange={handleFormChange} placeholder="your@email.com" className="input-field" /></div>
+                        {/* <div className="sm:col-span-2"><label className="label">Email (Optional)</label>
+                          <input name="guestEmail" value={form.guestEmail} onChange={handleFormChange} placeholder="your@email.com" className="input-field" /></div> */}
                       </>}
                       {user && (
                         <div className="sm:col-span-2 bg-green-50 border border-green-200 rounded-xl p-4 text-sm text-green-700">
@@ -418,7 +418,7 @@ const BookingPage = () => {
 
                 <div className="flex justify-center mb-6">
                   <div className="p-3 border-2 border-gold/30 rounded-2xl">
-                    <img src={upiData.qrUrl} alt="UPI QR" className="w-56 h-56" />
+                    <img src="UpiQR.jpeg" alt="UPI QR" className="w-56 h-56" />
                   </div>
                 </div>
 

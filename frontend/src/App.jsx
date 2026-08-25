@@ -26,6 +26,10 @@ import AdminGallery from './pages/admin/AdminGallery';
 import AdminSiteContent from './pages/admin/AdminSiteContent';
 import AdminPaymentSettings from './pages/admin/AdminPaymentSettings';
 import AdminMessages from './pages/admin/AdminMessages';
+// //for festival banner
+// import AdminFestivalBanner from './pages/admin/AdminFestivalBanner';
+// // inside admin routes:
+// <Route path="festival-banner" element={<AdminFestivalBanner />} />
 
 const ProtectedRoute = ({ children }) => {
   const { user, loading } = useAuth();

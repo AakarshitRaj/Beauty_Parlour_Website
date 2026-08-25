@@ -267,7 +267,7 @@ const AdminSiteContent = () => {
                   <label className="label capitalize">{platform} URL</label>
                   <input
                     className="input-field"
-                    placeholder={`https://${platform}.com/glowglam`}
+                    placeholder={`https://${platform}.com/arpans_beauty_zone_ssm`}
                     value={content?.socialLinks?.[platform] || ''}
                     onChange={e => setContent(prev => ({ ...prev, socialLinks: { ...prev.socialLinks, [platform]: e.target.value } }))}
                   />
